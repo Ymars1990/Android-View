@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <EditText
+        android:id="@+id/resetpwd_orignalpwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_edittext_height"
+        android:background="@drawable/edittext_bg_style01"
+        android:hint="@string/resetpwd_orignalpwd_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/margin_left"
+        android:paddingRight="@dimen/margin_right"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/resetpwd_newpwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_edittext_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/edittext_bg_style01"
+        android:hint="@string/resetpwd_newpwd_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/margin_left"
+        android:paddingRight="@dimen/margin_right"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/resetpwd_repwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_edittext_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/edittext_bg_style01"
+        android:hint="@string/resetpwd_repwd_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/margin_left"
+        android:paddingRight="@dimen/margin_right"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/resetpwd_bt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_edittext_height"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/button_selector"
+        android:text="@string/reset_pwd" />
+
+</LinearLayout>

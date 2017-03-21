@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="serverurl">http://www.cccpay.cn/downloads/android/test/version.xml</string>
+    <string name="app_name">火星人</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <!-- 登录界面 -->
+    <string name="login_id_hint">请输入账户</string>
+    <string name="login_pwd_hint">请输入密码</string>
+    <string name="login">Login</string>
+    <string name="login_no_account_tips">Don\'t have an account yet?</string>
+    <string name="login_forget_passWord">Forget passWord?</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 注册 -->
+    <string name="sign_up_id_hint">请输入账户名</string>
+    <string name="sign_up_pwd_hint">请输入密码</string>
+    <string name="sign_up_repwd_hint">请输入确认密码</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- 重置密码 -->
+    <string name="resetpwd_orignalpwd_hint">请输入原始密码</string>
+    <string name="resetpwd_newpwd_hint">请输入新密码</string>
+    <string name="resetpwd_repwd_hint">请输入确认密码</string>
+    <string name="reset_pwd">Reset Password</string>
+    <string name="title_activity_touch_blank">TouchBlankActivity</string>
+    <string name="title_activity_arc_menu">ArcMenuActivity</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_activity_timeline">TimelineActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_timeline">MyTimelineActivity</string>
+
+</resources>

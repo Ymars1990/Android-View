@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mars="http://schemas.android.com/apk/com.mars.marsview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <com.mars.marsview.view.MyFlowLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/show01"
+            style="@style/text_flag_01"
+            android:text="Welcome" />
+
+        <TextView
+            android:id="@+id/show02"
+            style="@style/text_flag_01"
+            android:text="IT工程师" />
+
+        <TextView
+            android:id="@+id/show03"
+            style="@style/text_flag_01"
+            android:text="学习ing" />
+
+        <TextView
+            android:id="@+id/show04"
+            style="@style/text_flag_01"
+            android:text="恋爱ing" />
+
+        <TextView
+            android:id="@+id/show05"
+            style="@style/text_flag_01"
+            android:text="挣钱ing" />
+
+        <TextView
+            android:id="@+id/show06"
+            style="@style/text_flag_01"
+            android:text="努力ing" />
+
+        <TextView
+            android:id="@+id/show07"
+            style="@style/text_flag_01"
+            android:text="I thick i can" />
+
+        <TextView
+            android:id="@+id/show08"
+            style="@style/text_flag_01"
+            android:text="我是一个标签内容很长的标签,到底有多场长,看我你就知道了" />
+
+        <TextView
+            android:id="@+id/show09"
+            style="@style/text_flag_01"
+            android:text="我是一个标签内容很长的标签,到底有多场长,看我你就知道了.My name is a long tag,very big" />
+    </com.mars.marsview.view.MyFlowLayout>
+
+</LinearLayout>

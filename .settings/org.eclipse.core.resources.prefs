@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//jni/JLJBIGEnCoder.c=UTF-8
+encoding//jni/JLJBIGEnCoder.h=UTF-8
+encoding//src/com/mars/marsview/GroupListViewActivity.java=UTF-8
+encoding//src/com/mars/marsview/HorizontalViewpagerActivity.java=UTF-8
+encoding//src/com/mars/marsview/VerticalViewPagerActivity.java=UTF-8
+encoding//src/com/mars/marsview/entity/FrameAnimation.java=UTF-8
+encoding//src/com/mars/marsview/utils/GB2260.java=UTF-8
+encoding//src/com/mars/marsview/utils/MyUtils.java=UTF-8
+encoding//src/com/mars/marsview/view/BGAFlowLayout.java=UTF-8
+encoding//src/com/mars/marsview/view/GameSurfaceView.java=UTF-8
+encoding//src/com/mars/marsview/view/RadarView.java=UTF-8
+encoding//src/com/mars/marsview/view/SliderWheelMenu.java=UTF-8
+encoding//src/com/mars/marsview/view/WheelView.java=UTF-8

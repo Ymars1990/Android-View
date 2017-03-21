@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dividingLine">#939090</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_white">#ADADB2</color>
+    <color name="bgblur">#11B2DC</color>
+    <color name="blue">#FF11B2DC</color>
+    <color name="mpos">#FF4C9993</color>
+    <color name="description">#FF4C9911</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="gray_selected">#B6B6B6</color>
+    <color name="item_selected">#CDD7E2</color>
+    <color name="wihte_unselected">#E2E2E2</color>
+    <color name="selected">#585C5B</color>
+    <color name="unselected">#FFCBC7C8</color>
+    <color name="textunselected">#5F6361</color>
+    <color name="textcolor">#464646</color>
+    <color name="hint_text">#868686</color>
+    <color name="tab_select">#FF6508</color>
+    <color name="tab_unselect">#000000</color>
+    <color name="seekbar_gray">#CCCED1</color>
+    <color name="seekbar_blue">#2644FF</color>
+    <color name="orange_ff">#FF6408</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange_f6">#f6d282</color>
+    <color name="purple_82">#827a99</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="pink">#FFFF00FF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="circle_color">#323a45</color>
+    <color name="ring_color">#14b9d6</color>
+
+</resources>

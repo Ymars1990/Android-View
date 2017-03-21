@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectdialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="8dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/selectDialogScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none" >
+        <LinearLayout
+            android:id="@+id/selectDialogLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/selectDialogCancel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/actionsheet_single_selector"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:text="取消"
+        android:textColor="@color/bgblur"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mars.marsview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mars"
+        android:label="@string/app_name"
+        android:logo="@drawable/mars"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LauncherActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".widget.MarsWidget"
+            android:label="Mars" >
+            <intent-filter>
+                <category android:name="android.intent.category.HOME" />
+
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mars_widget" />
+        </receiver>
+
+        <service android:name=".systemmanager.DownLoadService" />
+        <service android:name=".utils.MarsWidgetService" />
+
+        <receiver android:name=".systemmanager.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProgressBarActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SeekBarActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InputTextActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProgressDialogActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ViewPagerShowActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HorizontalViewpagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VerticalViewPagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PullableListViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ImageLoaderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TimeLineActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CakeViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyTextViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TemptureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyRoundImageViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyExpandTabViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyListViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GroupListViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MyFlowLayoutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FlowlayoutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SignatureViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Bmp2JbigActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WheelViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".IndexerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ClockViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AnimationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SpeedViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SurfaceViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CircleRingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ScannerSpeedViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LockPatternViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoopViewPagerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AddViewViewGroupActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VideoPlayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ScratchCardViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HistogramViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".VectorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MposViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ResetpwdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WaveViewActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DownloadViewActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GirdViewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelectorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".TouchBlankActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ArcMenuActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoadingActivity"
+            android:label="@string/title_activity_loading" >
+        </activity>
+        <activity
+            android:name=".TimelineActivity"
+            android:label="@string/title_activity_timeline" >
+        </activity>
+        <activity
+            android:name=".MyTimelineActivity"
+            android:label="@string/title_activity_my_timeline" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loadinglayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loadingtrangle"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.mars.marsview.view.loading.LoadingView01
+            android:id="@+id/loadingView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:visibility="gone" />
+        <com.mars.marsview.view.loading.LoadingView02
+            android:id="@+id/loadingView02"
+            android:layout_width="120dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loadingMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="loading"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="bmWidth" format="dimension"></attr>
+        <attr name="bmHeight" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="NumTipSeekBar">
+        <attr name="tickBarHeight" format="dimension" />
+        <attr name="tickBarColor" format="color" />
+        <attr name="circleButtonColor" format="color" />
+        <attr name="circleButtonTextColor" format="color" />
+        <attr name="circleButtonTextSize" format="dimension" />
+        <attr name="circleButtonRadius" format="dimension" />
+        <attr name="progressHeight" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="selectProgress" format="integer" />
+        <attr name="startProgress" format="integer" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="isShowButtonText" format="boolean" />
+        <attr name="isShowButton" format="boolean" />
+        <attr name="isRound" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="progress_unreach_color" format="color" />
+        <attr name="progress_unreach_height" format="dimension" />
+        <attr name="progress_reach_color" format="color" />
+        <attr name="progress_reach_height" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_szie" format="dimension" />
+        <attr name="progress_text_offset" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="progress_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ViewPager">
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleView">
+        <attr name="circleview_color" format="color" />
+        <attr name="circleview_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyCakeView">
+        <attr name="cakeview_color" format="color" />
+        <attr name="cakeview_radius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyTrangleView">
+        <attr name="trangleview_color" format="color" />
+        <attr name="trangleview_width" format="dimension" />
+        <attr name="trangleview_height" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyTextView">
+        <attr name="textview_bgcolor" format="color" />
+        <attr name="textview_width" format="dimension" />
+        <attr name="textview_height" format="dimension" />
+        <attr name="textview_radius" format="dimension" />
+        <attr name="textview_textsize" format="dimension" />
+        <attr name="textview_textcolor" format="color" />
+        <attr name="textview_trianglewidth" format="dimension" />
+        <attr name="textview_trianglecolor" format="color" />
+    </declare-styleable>
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="MyRoundImageView">
+        <attr name="myroundimageview_circle" format="boolean" />
+        <attr name="myroundimageview_radius" format="dimension" />
+        <attr name="myroundimageview_roundrectwidth" format="dimension" />
+        <attr name="myroundimageview_roundrectheight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyCircleview">
+        <attr name="titleSize" format="dimension"></attr>
+        <attr name="titleColor" format="color"></attr>
+        <attr name="titleBackgroundColor" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="BGAFlowLayout">
+
+        <!-- 标签之间的水平间距 -->
+        <attr name="fl_horizontalChildGap" format="dimension" />
+        <!-- 标签之间的垂直间距 -->
+        <attr name="fl_verticalChildGap" format="dimension" />
+        <!-- 是否平均分配每一行的剩余水平方向的空白区域给该行的标签 -->
+        <attr name="fl_isDistributionWhiteSpacing" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="LD_WaveView">
+        <attr name="wave_color" format="color"></attr>
+        <attr name="wave_circle" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>

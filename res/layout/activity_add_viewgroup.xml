@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+	<EditText 
+	    android:id="@+id/tagEdt"
+	    android:layout_width="match_parent"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:layout_height="wrap_content"
+	    android:hint="请输入标签"
+	    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/addView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_selector"
+            android:padding="5dp"
+            android:text="AddView Animation"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <com.mars.marsview.view.AddViewViewGroup
+            android:id="@+id/myAddViewVieGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true" />
+    </ScrollView>
+
+</LinearLayout>

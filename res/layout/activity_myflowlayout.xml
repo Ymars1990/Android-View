@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mars="http://schemas.android.com/apk/com.mars.marsview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+	<com.mars.marsview.view.TagLayout 
+	    android:id="@+id/myTaglayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    
+	    
+	</com.mars.marsview.view.TagLayout>
+    <com.mars.marsview.view.BGAFlowLayout
+        style="@style/MatchWrap"
+        android:background="#8E92DB"
+        android:padding="10dp"
+        mars:fl_horizontalChildGap="15dp"
+        mars:fl_isDistributionWhiteSpacing="true"
+        android:visibility="gone"
+        mars:fl_verticalChildGap="10dp">
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="bingo" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="googol" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="apple" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="bingoogolapple" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:layout_height="40dp"
+            android:text="HelloWorld" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Android" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="iOS" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="PHP" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="PhoneGap" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Cordova" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="AppCan" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="React Native" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Ionic" />
+        <TextView
+            style="@style/text_flag_01"
+            android:text="这是一个很长的标签组，我也不知道到底多长的标签内容才是正确的" />
+    </com.mars.marsview.view.BGAFlowLayout>
+
+    <com.mars.marsview.view.BGAFlowLayout
+        android:id="@+id/flowlayout"
+        style="@style/MatchWrap"
+        android:background="#8a9a22"
+        android:padding="10dp"
+        mars:fl_isDistributionWhiteSpacing="true" >
+    </com.mars.marsview.view.BGAFlowLayout>
+
+    <LinearLayout
+        style="@style/MatchWrap.Horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/et_main_tag"
+            style="@style/AutoWrap" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/WrapWrap"
+            android:layout_marginLeft="10dp"
+            android:onClick="onClick"
+            android:text="添加"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

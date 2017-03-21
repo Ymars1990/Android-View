@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <com.mars.marsview.view.CircleView
+        android:id="@+id/binddevice_step1_circleveiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.mars.marsview.view.CircleView>
+
+    <com.mars.marsview.view.TrangleView
+        android:id="@+id/binddevice_step1_trangleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" >
+    </com.mars.marsview.view.TrangleView>
+
+    <com.mars.marsview.view.CircleView
+        android:id="@+id/binddevice_step2_circleveiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.mars.marsview.view.CircleView>
+
+    <com.mars.marsview.view.TrangleView
+        android:id="@+id/binddevice_step2_trangleView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" >
+    </com.mars.marsview.view.TrangleView>
+
+    <com.mars.marsview.view.CircleView
+        android:id="@+id/binddevice_step3_circleveiw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.mars.marsview.view.CircleView>
+
+</LinearLayout>

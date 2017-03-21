@@ -1,0 +1,32 @@
+﻿<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <com.mars.marsview.view.timeline.TimelineView
+        android:id="@+id/mtlv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/changeStep"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_selector"
+            android:padding="5dp"
+            android:text="步骤更换"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

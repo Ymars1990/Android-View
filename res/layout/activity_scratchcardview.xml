@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <Button
+            android:id="@+id/resetBt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_selector"
+            android:padding="5dp"
+            android:text="Scratch Again"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <com.mars.marsview.view.ScratchcardView
+            android:id="@+id/scratchCardView"
+            android:layout_width="match_parent"
+            android:background="@color/bgblur"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+</LinearLayout>

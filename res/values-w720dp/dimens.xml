@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- 提示文字大小 -->
+    <dimen name="tips">22sp</dimen>
+    <dimen name="margin_left">12dp</dimen>
+    <dimen name="margin_right">12dp</dimen>
+    <dimen name="margin_top">12dp</dimen>
+    <dimen name="margin_bottom">12dp</dimen>
+    <dimen name="input_edittext_height">48dp</dimen>
+
+</resources>

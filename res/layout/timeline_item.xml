@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/timeline_item_steptxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.mars.marsview.view.CircleView
+            android:id="@+id/timeline_item_circleview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.mars.marsview.view.CircleView>
+
+        <com.mars.marsview.view.TrangleView
+            android:id="@+id/timeline_item_trangleview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+        </com.mars.marsview.view.TrangleView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.0"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/timeline_item_contenttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Step1 Content" />
+    </LinearLayout>
+
+</LinearLayout>
